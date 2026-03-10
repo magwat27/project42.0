@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f8f3e7;
+    color: #2f2a24;
+    line-height: 1.45em;
+}
+
+header {
+    background-color: #6b8e23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fffdf8;
+}
+
+nav {
+    background-color: #d9c27a;
+    padding: 12px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f2a24;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-links a:hover {
+    background-color: #f3e7b3;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.float-left {
+    float: left;
+    width: 220px;
+    margin: 0 18px 12px 0;
+    border: 2px solid #d9c27a;
+    padding: 4px;
+    background-color: white;
+}
+
+.float-right {
+    float: right;
+    width: 220px;
+    margin: 0 0 12px 18px;
+    border: 2px solid #d9c27a;
+    padding: 4px;
+    background-color: white;
+}
+
+.image-credit {
+    font-size: 0.9em;
+    font-style: italic;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6b8e23;
+    color: white;
+    margin-top: 30px;
+}
+
+.chapter-intro {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.book-cover {
+    display: block;
+    margin: 20px auto;
+    width: 280px;
+    max-width: 100%;
+    border: 3px solid #d9c27a;
+    padding: 6px;
+    background-color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
